@@ -1,0 +1,115 @@
+.app {
+  background-color: #fafafa;
+}
+.app__header{
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  object-fit: contain;
+  background-color: white;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.app_headerImage{
+  max-width: 200px;
+  max-height: 100px;
+  object-fit: contain;
+}
+.post {
+  max-width: 500px;
+  background-color: white;
+  border: 1px solid lightgray;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.post__image {
+  width: 100%;
+  object-fit: contain;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+.post__text{
+  font-weight: normal;
+  padding: 20px;
+}
+.post_header{
+  display: flex;
+  align-items: center;
+}
+.post__avatar{
+  margin: 10px;
+}
+.app__headerLogo {
+  max-width: 100px;
+  max-height: 100px;
+}
+.app__signup {
+  display: flex;
+  flex-direction: column;
+}
+.app__signin {
+  display: flex;
+  flex-direction: column;
+}
+.ImageUpload__button01{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-right: 20px;
+}
+.ImageUpload__card, .app__card {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  border: 1px sold lightgray;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.imageUpload__progress {
+  width: 100%;
+  margin: 10px;
+}
+.form-control {
+  margin: 10px;
+}
+.head {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.app__loginContainer {
+  object-fit: contain;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid lightgray;
+}
+.app__post {
+  margin: auto;
+  align-content: center;
+}
+.post__input {
+  /* width: 85%; */
+  flex: 1;
+}
+.post__button{
+  flex: 0;
+  color: #48a1c7;
+}
+.post__comment {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+.post_comments{
+  padding: 20px;
+}
+.app__footer {
+  background-color: white;
+  border-top: 1px solid lightgray;
+}
